@@ -4,10 +4,12 @@ mongo-connector 使用的时候有bug,所以自己实现了一个用来实现 mo
 
 # 说明
 
-- ```MongodbSyncElasticsearch-all```这个文件夹是用来实现全量复制,使用的字段是_id
+- ```MongodbSyncElasticsearch-all```
+这个文件夹是用来实现全量复制,使用的字段是_id
 
 
-- ```MongodbSyncElasticsearch-increment```这个文件夹用来实现增量更新,使用的字段是lastget_at
+- ```MongodbSyncElasticsearch-increment```
+这个文件夹用来实现增量更新,使用的字段是lastget_at
 
 
 - 注意:你可以根据你的数据结构来修改代码(非常简单)
