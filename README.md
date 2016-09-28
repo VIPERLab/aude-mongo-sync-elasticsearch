@@ -3,6 +3,7 @@ mongo-connector 使用的时候有bug,所以自己实现了一个用来实现 mo
 
 
 # 说明
+
 - ```MongodbSyncElasticsearch-all```这个文件夹是用来实现全量复制,使用的字段是_id
 
 
